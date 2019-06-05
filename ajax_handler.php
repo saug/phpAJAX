@@ -22,7 +22,6 @@ if( !empty( $fetch_data ) ){
     $toreturn .= "</tr>";
 }
 
-// echo $toreturn;
 echo json_encode( 
     array(
         'status' => '202',
